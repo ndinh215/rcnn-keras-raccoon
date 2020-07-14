@@ -2,8 +2,8 @@
 # python build_dataset.py
 
 # import the necessary packages
-from pyimagesearch.iou import compute_iou
-from pyimagesearch import config
+from config.iou import compute_iou
+from config import config
 from bs4 import BeautifulSoup
 from imutils import paths
 import cv2

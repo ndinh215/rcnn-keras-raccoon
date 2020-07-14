@@ -2,8 +2,8 @@
 # python detect_object_rcnn.py --image images/raccoon_01.jpg
 
 # import the necessary packages
-from pyimagesearch.nms import non_max_suppression
-from pyimagesearch import config
+from config.nms import non_max_suppression
+from config import config
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
